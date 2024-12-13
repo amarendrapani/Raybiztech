@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [raybiztech master suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="com.qa.raybiztech.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.raybiztech.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="4" parallel="tests" name="ArtificialIntelligence validation(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.raybiztech.tests.ArtificialIntelligencePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="artificialIntelligenceHeader"/>
+          <include name="ArtificialIntelligencePageTitleValidation"/>
+          <include name="setUp"/>
+          <include name="aipSetup"/>
+        </methods>
+      </class> <!-- com.qa.raybiztech.tests.ArtificialIntelligencePageTest -->
+    </classes>
+  </test> <!-- ArtificialIntelligence validation(failed) -->
+</suite> <!-- Failed suite [raybiztech master suite] -->
