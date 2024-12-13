@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.raybiztech.tests.DataValidationTest">
+      <class name="com.qa.raybiztech.tests.ArtificialIntelligencePageTest">
         <methods>
-          <include name="validateCsvDataAgainstPdfnew"/>
+          <include name="tearDown"/>
+          <include name="ArtificialIntelligencePageTitleValidation"/>
+          <include name="setUp"/>
+          <include name="aipSetup"/>
         </methods>
-      </class> <!-- com.qa.raybiztech.tests.DataValidationTest -->
+      </class> <!-- com.qa.raybiztech.tests.ArtificialIntelligencePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -15,12 +15,12 @@
 
 	</listeners>
 	
-	<!--<test name="Homepage validation">
+	<test name="Homepage validation">
 		
 		<classes>
 			<class name="com.qa.raybiztech.tests.HomePageTest" />
 		</classes>
-	</test> -->
+	</test> 
 	
 	
 	<test name="ArtificialIntelligence validation">
