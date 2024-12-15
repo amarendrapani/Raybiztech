@@ -6,4 +6,8 @@ public class Registrationpage {
 		System.out.print("testing");
 	}
 	
+	public void testing() {
+		System.out.println("here am checking the branching and non branching tags ");
+	}
+	
 }
