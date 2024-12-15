@@ -29,10 +29,10 @@
 		</classes>
 	</test>
 	
-	<!--<test name="Contact validation">
+	<test name="Contact validation">
 		<classes>
 			<class name="com.qa.raybiztech.tests.ContactPageTest" />
 		</classes>
-	</test> -->
+	</test> 
 	
 </suite>

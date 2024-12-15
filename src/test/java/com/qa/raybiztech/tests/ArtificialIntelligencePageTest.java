@@ -20,10 +20,10 @@ public class ArtificialIntelligencePageTest extends BaseTest {
 		Assert.assertEquals(title, Constants.ArtificialIntelligence_Page_Title);		
 	}
 	
-	//@Test
-	//public void artificialIntelligenceHeader() {
-		//Assert.assertTrue(aipPage.isAipheaderExist());
-	//}
+	@Test
+	public void artificialIntelligenceHeader() {
+		Assert.assertTrue(aipPage.isAipheaderExist());
+	}
 	
 	//@Test
     //public void testValidateAllLinks() {

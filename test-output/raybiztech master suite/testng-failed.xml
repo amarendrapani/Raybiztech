@@ -18,4 +18,27 @@
       </class> <!-- com.qa.raybiztech.tests.ArtificialIntelligencePageTest -->
     </classes>
   </test> <!-- ArtificialIntelligence validation(failed) -->
+  <test thread-count="4" parallel="tests" name="Contact validation(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.raybiztech.tests.ContactPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="contactSetup"/>
+          <include name="contactRegisterReset" invocation-numbers="0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3"/>
+        </methods>
+      </class> <!-- com.qa.raybiztech.tests.ContactPageTest -->
+    </classes>
+  </test> <!-- Contact validation(failed) -->
+  <test thread-count="4" parallel="tests" name="Homepage validation(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.raybiztech.tests.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="homePageTitleValidation"/>
+        </methods>
+      </class> <!-- com.qa.raybiztech.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Homepage validation(failed) -->
 </suite> <!-- Failed suite [raybiztech master suite] -->
